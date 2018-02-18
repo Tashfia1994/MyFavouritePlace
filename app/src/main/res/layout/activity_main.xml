@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48F5FF"
+    tools:context="com.tashfia.myfavouriteplace.MainActivity">
+
+    <Button
+        android:id="@+id/btn_coxbazer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#010502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Coxs Bazer" />
+
+    <Button
+        android:id="@+id/btn_saint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_coxbazer"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#010502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Saint Martain" />
+
+    <Button
+        android:id="@+id/btn_bandarban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#010502"
+        android:layout_below="@+id/btn_saint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Bandarban" />
+
+    <Button
+        android:id="@+id/btn_rangamati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_bandarban"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#010502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Rangamati" />
+
+    <Button
+        android:id="@+id/btn_shajek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_rangamati"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#010502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Shajek" />
+</RelativeLayout>
